@@ -1,0 +1,107 @@
+/* CSS Document */
+/*Author: Clint Ungashick*/
+
+/* # = id, use only once on a page */
+/* . = class, can be used multiple times on a page */
+/* margin extends outside container */
+/* padding extends inside container */
+
+/*find this link in .CSS for the other code snippets necessary to force Footer at bottom of Viewport*/
+/*http://www.frontpagewebmaster.com/m-285491/tm.htm#285491*/
+html {
+	height: 100%;
+}
+
+body {
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	/*background-image: url(../images/bgbody.gif);
+	*/
+	/*background-repeat: repeat-x;
+	*/
+	background-color: #363636;
+	color: #000000;
+	/*http://www.frontpagewebmaster.com/m-285491/tm.htm#285491*/
+	height: 100%;
+}
+
+#wrapper {
+	position: relative;
+	/* the key is setting the min-height of the main wrapper*/
+	/*http://www.frontpagewebmaster.com/m-285491/tm.htm#285491*/
+	min-height: 100%;
+	top: 0;
+	width:800px;
+	margin-top: 0;
+	margin-bottom: 1em;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	/*background-color:  red;*/
+	background-color:  black;
+}
+/*background-color:  #FFFFFF;*/
+/*http://www.frontpagewebmaster.com/m-285491/tm.htm#285491*/
+* html #wrapper {
+	height: 100%;
+	} 
+	
+#masthead {
+	width:750px;
+	height:190px;
+	padding: 25;
+	margin: 0 auto; /*needed for centering DIV with this ID*/
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	color: white;
+}
+
+#content_box {
+	position: relative;
+	width: 750px;
+	margin: 10px 25px 10px 25px;
+	border: black 0px solid;
+	text-align: left;
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	color: white;
+/*	background-color:  #FFFFFF;*/
+}
+	
+a:link {
+   color: #0071E5;
+   text-decoration: none;
+   font-weight : bold;
+}
+a:visited {
+   color: #0071E5;
+   text-decoration: none;
+   font-weight : bold;
+}
+a:hover {
+	color: #1FD500;
+	text-decoration: underline;
+	font-weight : bold;
+}
+a:active { 
+   color: #0071E5;
+   text-decoration: none;
+   font-weight : bold;
+}
+
+h1 {
+color: yellow;
+}
+
+h2 {
+color: yellow;
+}
+
+.tr-caption {
+	color: #67BD66;
+	font-weight : bold;
+}
+
+.emphasizeText {
+	color: #67BD66;
+	font-weight : bold;
+)
